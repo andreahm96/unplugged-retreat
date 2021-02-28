@@ -94,13 +94,15 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width:100%;
 }
 
-content-wrapper{
+.content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width:100%;
 }
 
 header nav{
@@ -108,14 +110,26 @@ header nav{
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+}
+.header-divider{
+  border-top: 1px solid;
+  width: 100%;
 }
 
-header nav ul li{
+header nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width:100%;
 }
-.footer-content{
+header nav ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+footer .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
