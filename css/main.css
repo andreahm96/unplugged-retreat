@@ -193,6 +193,8 @@ footer .contact p{
   font-size: 1rem;
   font-weight: medium;
   color: #ffffff;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 footer .social-icons p{
   display: flex;
