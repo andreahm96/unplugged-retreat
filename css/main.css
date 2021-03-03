@@ -103,7 +103,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width:100%;
+  width:90%;
 }
 header a{
   display: flex;
@@ -218,24 +218,29 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width:100%;
 }
 .features{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width:100%;
 }
+
 .features-items{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width:56%;
 }
 .reviews{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width:100%;
 }
 
 /*** Mobile - About page- ***/
@@ -373,6 +378,20 @@ aside{
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (min-width: 768px) {
+   /*Tablet styles here*/
+   }
+
+@media only screen and (min-width: 1200px) {
+   /*Desktop styles here*/
+   .content-wrapper{
+     width:80%;
+   }
+   .reviews article{
+     width:40%;
+   }
+
+   }
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
