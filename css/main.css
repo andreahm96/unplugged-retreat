@@ -390,7 +390,46 @@ aside{
 
 @media only screen and (min-width: 768px) {
    /*Tablet styles here*/
-   }
+
+ /*** base styles ****/
+header,footer{
+  width 100%;
+}
+header a {
+  width:35%;
+}
+header nav{
+  width:65%
+}
+footer .contact{
+  width: 50%;
+}
+footer .social{
+  width: 50%;
+}
+.content-wrapper{
+  width: 84%;
+}
+/*** tablet-home ***/
+
+.form-description{
+  width: 50%;
+}
+.form{
+  width:50%;
+}
+.feature-items{
+  width:100%;
+}
+.features article{
+  width: 50%;
+}
+.reviews img{
+  width:50%;
+}
+.reviews article{
+  width:50%;
+}
 
 @media only screen and (min-width: 1200px) {
    /*Desktop styles here*/
