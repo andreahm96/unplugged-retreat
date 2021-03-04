@@ -220,6 +220,13 @@ aside{
   flex-flow: row wrap;
   width:100%;
 }
+.form-description{
+  width: 100%;
+}
+
+.form{
+  width:100%;
+}
 .features{
   display: flex;
   justify-content: center;
@@ -242,6 +249,9 @@ aside{
   flex-flow: row wrap;
   width:100%;
 }
+.reviews article{
+  width:100%;
+ }
 
 /*** Mobile - About page- ***/
 
@@ -384,14 +394,42 @@ aside{
 
 @media only screen and (min-width: 1200px) {
    /*Desktop styles here*/
+   header,footer{
+     width:100%
+   }
+
    .content-wrapper{
      width:80%;
    }
-   .reviews article{
-     width:40%;
-   }
 
+   aside .content-wrapper{
+     width:70%;
    }
+   .form-description{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 50%;
+  }
+  .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+  }
+
+  .feature-items{
+    width: 33.33%
+  }
+
+  .reviews article{
+    width:40%;
+   }
+}
+
+
+/**********/
+
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
