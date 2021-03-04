@@ -98,6 +98,10 @@ footer {
     background-color: #202322;
 }
 
+header .content-wrapper{
+    width:100%;
+}
+
 .content-wrapper{
   display: flex;
   justify-content: center;
@@ -391,44 +395,81 @@ aside{
 @media only screen and (min-width: 768px) {
    /*Tablet styles here*/
 
+  /* General styles */
+   .content-wrapper {
+     max-width: 640px;
+     margin: 0 50px ;
+   }
  /*** base styles ****/
-header,footer{
-  width 100%;
-}
-header a {
-  width:35%;
-}
-header nav{
-  width:65%
-}
-footer .contact{
-  width: 50%;
-}
-footer .social{
-  width: 50%;
-}
-.content-wrapper{
-  width: 84%;
-}
+  header{
+    justify-content: space-between;
+    padding:30px;
+  }
+  header .content-wrapper{
+    justify-content: space-between;
+    width: 100%;
+  }
+  header a{
+    width:50%;
+    justify-content: space-between;
+  }
+  header img{
+    width: 45%;
+    justify-content: flex-start;
+  }
+  header nav{
+    width: 50%;
+    justify-content: space-between;
+  }
+  header nav ul{
+    justify-content:flex-end;
+  }
+  header nav ul li{
+    padding-left: 40px;
+  }
+
+  .header-divider{
+    display:none;
+  }
+  footer .content-wrapper {
+    width: 100%;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  footer .contact{
+    width: 50%;
+  }
+  footer .social{
+    width: 50%;
+  }
 /*** tablet-home ***/
 
-.form-description{
-  width: 50%;
-}
-.form{
-  width:50%;
-}
-.feature-items{
-  width:100%;
-}
-.features article{
-  width: 50%;
-}
-.reviews img{
-  width:50%;
-}
-.reviews article{
-  width:50%;
+  .form-description{
+    width: 50%;
+  }
+  .form{
+    width:50%;
+  }
+  .feature-items{
+    width:100%;
+  }
+  .features article{
+    width: 50%;
+  }
+  .reviews img{
+    width:50%;
+  }
+  .reviews article{
+    width:50%;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
