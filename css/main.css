@@ -255,6 +255,7 @@ aside{
   align-items: center;
   flex-flow: row wrap;
   width:100%;
+  background-color: #527158;
 }
 .form-description{
   width: 100%;
@@ -269,8 +270,10 @@ aside{
   align-items: center;
   flex-flow: row wrap;
   width:100%;
+  background-image: url("../assets/features-background.jpg");
+  background-position: center;
+  background-size: contain;
 }
-
 .features-items{
   display: flex;
   justify-content: center;
@@ -284,6 +287,7 @@ aside{
   align-items: center;
   flex-flow: row wrap;
   width:100%;
+  background-color: #2a423a;
 }
 .reviews article{
   width:100%;
