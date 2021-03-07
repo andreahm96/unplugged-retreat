@@ -13,7 +13,6 @@
 
 html {
   color: #222;
-  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -86,7 +85,52 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /*general styles*/
+   html{
+     font-size: 16px;
+   }
 
+   body{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1em;
+   }
+   h1{
+     font-family: 'Poppins', sans-serif;
+     font-size: 2.25em;
+     color: #e2e3ed;
+   }
+   h2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.875em;
+     color: #e2e3ed;
+   }
+
+   h3{
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.125em;
+     color: #e2e3ed;
+     font-weight: medium;
+   }
+
+   ul{
+     list-style-type: none;
+     padding-inline-start:0px;
+   }
+
+   a{
+     color: #e2e3ed;
+     text-decoration: none;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1.125em;
+     font-weight: bold;
+   }
+
+   p{
+     font-family:'Open Sans', sans-serif;
+     font-size: 0.875em;
+     font-weight: medium;
+     color:#e2e3ed;
+   }
 /**** base styles ****/
 header,
 footer {
@@ -138,8 +182,6 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  list-style-type: none;
-  padding-inline-start:0px;
   width:100%;
 }
 header nav ul li {
@@ -147,13 +189,7 @@ header nav ul li {
   justify-content: space-around;
   align-items: center;
 }
-header nav ul li a {
-  color: #e2e3ed;
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.15em;
-  font-weight: bold;
-}
+
 footer .content-wrapper{
   display: flex;
   justify-content: center;
@@ -182,10 +218,6 @@ footer h4{
   align-items: center;
   flex-flow: row wrap;
   width:100%;
-  font-family:'Poppins', sans-serif;
-  font-size: 1.3rem;
-  font-weight: medium;
-  color: #ffffff;
 }
 footer .contact p{
   display: flex;
@@ -396,10 +428,21 @@ aside{
    /*Tablet styles here*/
 
   /* General styles */
+  h1{
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.25em;
+  }
+  h3{
+    font-size: 1.5em;
+  }
+
    .content-wrapper {
      max-width: 640px;
      margin: 0 50px ;
    }
+
  /*** base styles ****/
   header{
     padding:30px;
@@ -472,6 +515,21 @@ aside{
 }
 
 @media only screen and (min-width: 1200px) {
+  /* general styles*/
+  h1{
+    font-size: 3.75em;
+  }
+  h2 {
+    font-size: 2.25em;
+  }
+  h3{
+    font-size: 1.875em;
+  }
+  p{
+    font-size: 1.125em;
+  }
+
+
    /*Desktop styles here*/
    .content-wrapper {
      max-width: 960px;
