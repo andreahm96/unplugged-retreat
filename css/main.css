@@ -314,6 +314,7 @@ input[type=button] {
   background-image: url("../assets/features-background.jpg");
   background-position: center;
   background-size: contain;
+  padding: 50px 0;
 }
 .feature-items{
   display: flex;
@@ -336,6 +337,7 @@ input[type=button] {
   flex-flow: row wrap;
   width:100%;
   background-color: #2a423a;
+  padding: 45px 0;
 }
 .reviews article{
   width:100%;
