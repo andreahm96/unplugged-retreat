@@ -248,7 +248,18 @@ footer .copyright{
 
 
 /*** Mobile - Home page- ***/
-
+.hero-area .content-wrapper {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+.hero-area h1{
+  display: inline;
+}
+.hero-area img{
+  display:cover;
+  width: 100%;
+}
 aside{
   display: flex;
   justify-content: center;
