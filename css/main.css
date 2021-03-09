@@ -308,12 +308,19 @@ input[type=button] {
   background-position: center;
   background-size: contain;
 }
-.features-items{
+.feature-items{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width:56%;
+  width:100%;
+}
+.feature-items article{
+  width:63%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .reviews{
   display: flex;
