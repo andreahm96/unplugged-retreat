@@ -198,27 +198,33 @@ footer .content-wrapper{
   width: 55%;
   margin: 50px 0;
 }
-footer .contact{
-  display: flex;
-  justify-content: center;
-  align-items: space-around;
-  flex-flow: row wrap;
-  width:100%;
-}
-footer .social{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row wrap;
-  width:100%;
-}
+
 footer h4{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   width:100%;
+  text-align: center;
 }
+footer .contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width:100%;
+  padding-bottom: 30px;
+}
+
+footer .social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width:100%;
+  padding-bottom: 30px;
+}
+
 footer .contact p{
   display: flex;
   justify-content: center;
@@ -232,9 +238,10 @@ footer .contact p{
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
+
 footer .social-icons p{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
