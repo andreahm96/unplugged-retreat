@@ -262,10 +262,14 @@ footer .copyright{
 }
 .hero-area h1{
   display: inline;
+  padding-left: 20px;
 }
-.hero-area img{
-  display:cover;
-  width: 100%;
+.hero-area {
+  height:500px;
+background-image: url('../img/hero.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 }
 aside{
   display: flex;
