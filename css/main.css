@@ -131,6 +131,14 @@ textarea {
      font-weight: medium;
      color:#e2e3ed;
    }
+
+   img {
+	    width: 100%;
+    }
+
+    figure {
+        margin: 0;
+  }
 /**** base styles ****/
 header,
 footer {
@@ -153,17 +161,14 @@ header .content-wrapper{
   flex-flow: row wrap;
   width:90%;
 }
-header a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-header img {
+
+
+header figure {
   display: flex;
   justify-content: center;
   align-items: center;
   width:60%;
+  flex-flow: row wrap;
   padding: 15px 0;
 }
 header nav{
