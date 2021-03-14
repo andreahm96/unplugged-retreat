@@ -508,18 +508,15 @@ input[type=button] {
 
  /*** base styles ****/
   header{
-    padding:30px;
+    padding:30px 0;
   }
   header .content-wrapper{
     justify-content: space-between;
     width: 90%;
   }
-  header a{
-    width:50%;
-    justify-content: space-between;
-  }
-  header img{
-    width: 45%;
+
+  header figure{
+    width: 35%;
     justify-content: flex-start;
   }
   header nav{
@@ -558,6 +555,7 @@ input[type=button] {
 
   .form-description{
     width: 50%;
+    padding-right: 50px;
   }
   .form{
     width:50%;
