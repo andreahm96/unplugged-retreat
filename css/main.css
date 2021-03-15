@@ -571,10 +571,18 @@ input[type=button] {
   .form-description{
       width:45%;
       margin: 0;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-flow: column;
   }
    .form{
     width:45%;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
   }
 
 
