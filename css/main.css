@@ -103,8 +103,6 @@ textarea {
      font-family: 'Poppins', sans-serif;
      font-size: 1.875em;
      color: #e2e3ed;
-     margin-block-start: 0em;
-     margin-block-end: 0em;
      font-weight:normal;
    }
 
@@ -563,7 +561,7 @@ input[type=button] {
     flex-flow: row wrap;
   }
   .form-description{
-      width:40%;
+      width:45%;
       margin: 0;
   }
    .form{
