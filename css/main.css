@@ -677,6 +677,7 @@ input[type=button] {
   }
   .features{
     width:100%;
+    padding:80px 0;
   }
   .feature-items{
     width: 100%;
@@ -686,13 +687,14 @@ input[type=button] {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    flex-basis: 50%;
+    flex-basis: 33.33%;
   }
   .features .features-item-description {
-    width: 50%;
+    width: 63%;
   }
   .reviews{
     width: 100%;
+    padding: 80px 0;
   }
   .reviews article{
     width:50%;
