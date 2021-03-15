@@ -638,13 +638,16 @@ input[type=button] {
      display: none;
    }
    header .content-wrapper{
-     width:100%
+     width:100%;
+     margin:0;
    }
 
    .content-wrapper{
      width:80%;
    }
-
+   .hero-area .content-wrapper{
+     margin:0 120px;
+   }
    aside .content-wrapper{
      width:67%;
    }
