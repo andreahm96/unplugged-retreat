@@ -584,7 +584,11 @@ input[type=button] {
     align-content: center;
     flex-flow: column;
   }
-
+  .form h2{
+    display: flex;
+    width: 100%;
+    text-align: left;
+  }
 
   .feature-items{
     width:100%;
@@ -663,13 +667,13 @@ input[type=button] {
      display: flex;
      justify-content: center;
      align-items: center;
-     width: 50%;
+     width: 40%;
   }
   .form{
     display: flex;
     justify-content: center;
     align-items: center;
-    width:50%;
+    width:40%;
   }
   .features{
     width:100%;
