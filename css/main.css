@@ -553,12 +553,19 @@ input[type=button] {
   }
 /*** tablet-home ***/
 
-  .form-description{
-    width: 50%;
-    padding-right: 50px;
+  aside .content-wrapper{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
   }
-  .form{
-    width:50%;
+  .form-description{
+      width:40%;
+      margin: 0;
+  }
+   .form{
+    width:45%;
+    margin: 0;
   }
   .feature-items{
     width:100%;
