@@ -535,7 +535,7 @@ input[type=button] {
     display:none;
   }
   footer .content-wrapper {
-    width: 100%;
+    width: 65%;
     margin: 100px 0;
   }
 
@@ -548,6 +548,14 @@ input[type=button] {
 
   footer .contact{
     width: 50%;
+  }
+  footer h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width:100%;
+    text-align: center;
   }
   footer .social{
     width: 50%;
