@@ -132,7 +132,9 @@ textarea {
      font-weight: medium;
      color:#e2e3ed;
    }
-
+   address{
+     font-style: normal;
+   }
    img {
 	    width: 100%;
     }
