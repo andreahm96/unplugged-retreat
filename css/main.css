@@ -674,7 +674,9 @@ input[type=button] {
   align-items: flex-start;
   flex-flow: column wrap;
 }
-
+.contact-section h2{
+  padding-right: 131px;
+}
 
 /*************FAQ*************************/
 
