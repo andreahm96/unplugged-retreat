@@ -391,7 +391,9 @@ input[type=button] {
   justify-content: flex-start;
 }
 .contact-content p{
-  line-height: .75em;
+  line-height: 1.25em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 /*** Mobile - FAQ page- ***/
