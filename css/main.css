@@ -269,8 +269,8 @@ footer .copyright{
   justify-content: center;
 }
 .hero-area h1{
-  display: inline;
-  padding-left: 20px;
+  width:90%;
+  display: flex;
 }
 .hero-area {
   height:500px;
