@@ -401,6 +401,7 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+  padding:40px 10px;
 }
 .faq-content{
   display: flex;
