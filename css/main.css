@@ -363,6 +363,7 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+  padding:40px 10px;
 }
 .map{
     width: 100%;
@@ -384,6 +385,13 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #2a423a;
+  padding:40px 10px;
+}
+.contact-section .content-wrapper{
+  justify-content: flex-start;
+}
+.contact-content p{
+  line-height: .75em;
 }
 
 /*** Mobile - FAQ page- ***/
