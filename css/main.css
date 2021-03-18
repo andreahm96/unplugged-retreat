@@ -688,10 +688,16 @@ input[type=button] {
 .faq{
   padding: 70px 0 100px 0;
 }
-
-
-
-
+.faq .content-wrapper{
+  justify-content: space-between;
+}
+.faq-content{
+  width:47%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
 
 }
 
