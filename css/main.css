@@ -634,7 +634,12 @@ input[type=button] {
 
 
 /************** About ********************/
-
+.mission{
+  padding: 70px 0 90px 0;
+}
+.mission h2{
+  padding-right: 30px;
+}
 .mission-content{
   width: 100%;
   display: flex;
