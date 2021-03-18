@@ -405,6 +405,9 @@ input[type=button] {
   background-color: #527158;
   padding:40px 10px;
 }
+.faq .content-wrapper{
+  justify-content: flex-start;
+}
 .faq-content{
   display: flex;
   justify-content: flex-start;
