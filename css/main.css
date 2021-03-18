@@ -661,6 +661,9 @@ input[type=button] {
   overflow: hidden;
   position: relative;
 }
+.contact-section{
+  padding:70px 0 100px 0;
+}
 .contact-content{
   width:100%;
   display:flex;
