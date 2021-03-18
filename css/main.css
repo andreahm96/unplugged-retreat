@@ -411,10 +411,6 @@ input[type=button] {
 }
 
 
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -635,6 +631,31 @@ input[type=button] {
     justify-content: space-between;
     width:49%;
   }
+
+
+/************** About ********************/
+
+.mission-content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mission-content p{
+  width:47%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow:column wrap;
+}
+
+
+/*************FAQ*************************/
+
+
+
+
+
 
 }
 
