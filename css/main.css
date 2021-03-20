@@ -409,6 +409,9 @@ input[type=button] {
 .faq .content-wrapper{
   justify-content: flex-start;
 }
+.faq .content-wrapper h2{
+  width: 100%;
+}
 .faq-content{
   display: flex;
   justify-content: flex-start;
