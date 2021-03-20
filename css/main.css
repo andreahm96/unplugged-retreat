@@ -573,7 +573,7 @@ input[type=button] {
     display:none;
   }
   footer .content-wrapper {
-    width: 80%;
+    width: 90%;
     margin: 100px 0;
   }
 
@@ -753,7 +753,10 @@ input[type=button] {
      width:100%;
      margin:0;
    }
-
+   footer .content-wrapper {
+    width: 100%;
+    margin: 100px 0;
+  }
    .content-wrapper{
      width:80%;
      display: flex;
