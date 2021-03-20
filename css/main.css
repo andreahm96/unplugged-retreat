@@ -143,6 +143,12 @@ textarea {
     figure {
         margin: 0;
   }
+
+  .features i {
+  	font-size: 3.75em;
+    margin-bottom: 10px;
+  }
+
 /**** base styles ****/
 header,
 footer {
