@@ -235,7 +235,13 @@ footer .social{
   width:100%;
   padding-bottom: 30px;
 }
-
+footer .contact h3{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 footer .contact p{
   display: flex;
   justify-content: center;
