@@ -597,6 +597,7 @@ input[type=button] {
   }
   footer .social{
     width: 50%;
+    padding:0 50px;
   }
 /************* tablet-home *************/
 
@@ -762,6 +763,13 @@ input[type=button] {
      display: flex;
      justify-content: center;
      align-items: center;
+   }
+   footer .contact{
+     width:50%;
+   }
+   footer .social{
+     width:50%;
+     padding:0 100px;
    }
    .hero-area{
      height:600px;
