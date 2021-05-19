@@ -344,11 +344,9 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   width:100%;
-<<<<<<< HEAD
-  background-image:url('../img/features-background.jpg');
-=======
-  background-image: url("../img/features-background.jpg");
->>>>>>> 4f97fc555ac2db5491250ffa818aee48394eb783
+
+  background-image: url('../img/features-background.jpg');
+
   background-position: center;
   background-size: contain;
   padding: 50px 0;
