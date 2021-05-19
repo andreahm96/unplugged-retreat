@@ -344,7 +344,7 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   width:100%;
-  background-image: url("../assets/features-background.jpg");
+  background-image: url("../img/features-background.jpg");
   background-position: center;
   background-size: contain;
   padding: 50px 0;
